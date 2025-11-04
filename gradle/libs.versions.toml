@@ -22,6 +22,7 @@ socketio = "2.1.0"
 coil = "2.6.0"
 lottie = "6.4.1"
 materialIconsExtendedAndroid = "1.7.8"
+socketIoClient = "2.1.2"
 
 [libraries]
 # Core & UI
@@ -48,6 +49,7 @@ androidx-datastore-preferences = { group = "androidx.datastore", name = "datasto
 
 # Networking
 retrofit-v300 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofitVersion" }
+socket-io-client-v212 = { module = "io.socket:socket.io-client", version.ref = "socketIoClient" }
 squareup-retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 squareup-retrofit2-converter-kotlinx-serialization = { group = "com.squareup.retrofit2", name = "converter-kotlinx-serialization", version.ref = "retrofit" }
 squareup-okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp" }

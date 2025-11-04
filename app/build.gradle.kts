@@ -87,8 +87,7 @@ dependencies {
     implementation(libs.converter.kotlinx.serialization.v300) // The library from your error
 
     // Kotlinx Serialization JSON
-    implementation(libs.kotlinx.serialization.json.v160) // Use a consistent and recent version
-
-    // ... other dependencies
+    implementation(libs.kotlinx.serialization.json.v160)
+    implementation(libs.socket.io.client.v212)
 
 }
